@@ -1,0 +1,11 @@
+﻿A arquitetura de microsserviços se baseia em um software constituído por serviços independentes que se comunicam usando APIs.
+Com uma arquitetura monolítica, os processos são acoplados e executados como um único serviço. A complexidade de adicionar ou melhorar as funcionalidades aumenta à medida que o banco de dados cresce. Essa complexidade dificulta a implementação de novas ideias. 
+Em uma arquitetura de microsserviços, uma aplicação é construída como componentes independentes que executam cada processo como um serviço. Cada serviço desempenhará uma única função de forma independente, podendo ser atualizado, implantado e dimensionado para atender às necessidades específicas da aplicação.
+Os benefícios da arquitetura de microsserviços são:
+- Permite que diferentes linguagens de programação, estruturas e ambientes sejam utilizados dentro do sistema, portanto pode ser projetado para que seus componentes tenham o melhor desempenho.
+- O sistema pode ser facilmente modificado, assim, se ocorrer um problema em um microsserviço, o restante do sistema não será comprometido, pois o problema será tratado separadamente.
+- Cada serviço funciona de forma independente, permitindo que diferentes equipes trabalhem em diferentes componentes do sistema ao mesmo tempo.
+As formas de comunicação são:
+- Comunicação por HTTP; 
+- Comunicação por Mensagens e;
+- Comunicação Orientada a Eventos.
